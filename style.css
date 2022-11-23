@@ -5,3 +5,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+
+*[class^="col"] {
+    background-color: dodgerblue;
+    min-height: 50px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nested{
+    background-color: green;
+    height: 100%;
+    border: 1px solid dodgerblue;
+}
+
+.col-6 {
+    padding: 10px;
+}
+
+.row {
+    margin-bottom: 20px;
+}

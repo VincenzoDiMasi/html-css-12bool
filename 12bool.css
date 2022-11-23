@@ -23,7 +23,7 @@
 
 /* Column Reset */
 
-[class*='col']{
+*[class^="col"]{
     flex-shrink: 0;
     flex-grow: 0;
     flex-basis: auto;
