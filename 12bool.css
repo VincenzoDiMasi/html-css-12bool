@@ -1,0 +1,36 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Row Generic */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* Column Reset */
+
+[class*='col']{
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+/*Columns auto*/
+
+.col{
+    flex-grow: 1;
+}
